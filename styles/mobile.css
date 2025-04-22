@@ -27,8 +27,8 @@
     }
 
     nav > a {
-        margin: 15px;
-        font-size: 19px;
+        margin: 10px;
+        font-size: 15px;
         font-weight: bold;
         text-decoration: none;
         color: black;
@@ -115,7 +115,7 @@
     }   
     
     hr {
-        width: 420px;
+        width: 350px;
         margin: 0 auto;
     }
 
