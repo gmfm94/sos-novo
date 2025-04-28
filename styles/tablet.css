@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+
+    /* H  E  A  D  E  R */
+
+    nav > a {
+        margin: 30px;
+        font-size: 25px;
+    }
+
+    /* B  A  N  N  E  R   */
+
+    .banner {
+        align-items: center;
+        height: 600px;
+    }
+
+    .banner > h1 {
+        font-size: 44px;
+        margin-bottom: 15px;
+    }
+
+    .banner > p {
+        font-size: 19px;
+        margin-bottom: 25px;
+    }
+
+    .banner > a {
+        padding: 20px 60px;
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    /* I   N   F   O   S */
+
+    .infos {
+        flex-direction: row;
+        padding: 0px 50px;
+    }
+
+    hr {
+        width: 0;
+    }
+
+    .pag, .frete, .desc {
+        width: 300px;
+    }
+
+    /* P  R  O  D  U  C  T  S */
+
+    .products {
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    main > a {
+        width: 30%;
+        padding: 20px 60px;
+        font-size: 24px;
+    }
+
+    /* F  O  O  T  E  R */
+
+    .container {
+        display: flex;
+        padding: 70px;
+    }
+
+    .atendimento {
+        gap: 20px;
+    }
+
+    .atendimento, .pay {
+        width: 35%;
+    }
+
+    .atendimento > h2 {
+        font-size: 40px;
+    }
+
+    .atendimento > a {
+        font-size: 23px;
+    }
+
+    .atendimento > p:nth-child(5) {
+        font-size: 16px;
+    }
+
+    .atendimento > p:nth-child(6) {
+        font-size: 17px;
+    }
+
+    .atendimento > p  {
+        font-size: 20px;
+    }
+
+    .pay > h2 {
+        text-align: center;
+        margin-top: -10px;
+        margin-bottom: 60px;
+        font-size: 40px;
+    }
+
+    .pay > img {
+        width: 100%;
+        /* height: 70%; */
+    }
+
+    footer > p {
+
+    }
+}
