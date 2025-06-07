@@ -13,7 +13,7 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        padding: 10px 35px;
+        padding: 10px 65px;
     }
 
     header > img {
@@ -32,6 +32,7 @@
     nav > a:hover {
         color: rgb(27, 117, 208);
         cursor: pointer;
+        text-decoration: underline;
     }
 
     /* B  A  N  N  E  R   */
@@ -60,7 +61,7 @@
         justify-self: center;
         flex-flow: row wrap;
         max-width: 80%;
-        gap: 120px;
+        gap: 90px;
         /* grid-template-rows: repeat(1, 1fr);
         grid-template-columns: repeat(4, 1fr);
         gap: 80px;
@@ -91,7 +92,7 @@
     /* F  O  O  T  E  R */
 
     .container {
-        padding: 30px 120px;
+        padding: 30px 100px;
     }
 
     .atendimento > h2 {
@@ -100,6 +101,10 @@
 
     .atendimento > a {
         font-size: 17px;
+    }
+
+    .atendimento > p:nth-child(6){
+        font-size: 14px;
     }
 
     .pay > h2 {
@@ -116,13 +121,53 @@
         /* height: 70%; */
     }
 
-    @media screen and (max-width: 1460px) {
+    /* ----------------------------------------------------------------------------- */
+    /* Q   U   E   M      S   O   M   O   S */
+    /* ----------------------------------------------------------------------------- */
+
+    #fotos {
+        padding: 20px 100px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #fotos > img {
+        max-width: 300px;
+        max-height: 350px;
+    }
+
+    #fotos > img:nth-child(1) {
+        display: flex;
+    }
+
+    #fotos > img:nth-child(2) {
+        display: flex;
+    }
+
+    #texto {
+        
+        padding: 20px 90px;
+        line-height: 30px;
+    }
+
+    #texto > h1 {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 25px;
+    }
+
+    #textoo > p {
+        text-align: justify;
+    }
+
+
+    @media screen and (max-width: 1355px) {
         .products > .items:nth-child(4) {
             display: none;
         }
     }
 
-    @media screen and (max-width: 1070px) {
+    @media screen and (max-width: 1220px) {
         .products > .items:nth-child(3) {
             display: none;
         }
